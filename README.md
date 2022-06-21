@@ -1,4 +1,4 @@
-# BlackStoneBlockOnDocker
+# Black Stone Block On Docker
 
 This repository has been created for persons who wan't to run Black Stone Block Modpack on Docker based server.
 
