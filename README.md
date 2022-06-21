@@ -32,3 +32,5 @@ ENFORCE_WHITELIST: "TRUE or FALSE"
 TZ: "Your time zone"
 
 For more information on environment variables, do not hesitate to consult: https://github.com/itzg/docker-minecraft-server
+
+You can also change the port exposed on your server by default, the port used is 25565. To modify it, simply replace the line `25565:25565` by `{external_access_port}:25565`
