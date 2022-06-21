@@ -19,7 +19,7 @@ services:
       OPS: ""
       LEVEL_TYPE: skyblockbuilder\:custom_skyblock
       ALLOW_FLIGHT: "true"
-      MOTD: "BlackStoneBlock test server"
+      MOTD: "{Your server name}"
       ENFORCE_WHITELIST: "TRUE"
       MAX_PLAYERS: "50"
     tty: true
