@@ -13,7 +13,7 @@ How to install docker-compose: https://docs.docker.com/compose/install/
 How to do :
 
 - Download or copy the docker-compose.yml file and place it on your server in the directory of your choice
-- Download files from BlackStone Block server to curse forge and put in minecraft directory (with this docker-compose file, in directory: ./files) files and directory:
+- Download BlackStone Block server files on curse forge and put in minecraft directory (with this docker-compose file, in directory: ./files) files and directory:
   * config/
   * defaultconfigs/
   * kubejs/
