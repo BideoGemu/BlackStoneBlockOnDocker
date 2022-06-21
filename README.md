@@ -10,7 +10,7 @@ To run this server, it is imperative that docker-compose is installed.
 
 How to install docker-compose: https://docs.docker.com/compose/install/
 
-How to do :
+## How to do :
 
 - Download or copy the docker-compose.yml file and place it on your server in the directory of your choice
 - Download BlackStone Block server files on curse forge and put in minecraft directory (with this docker-compose file, in directory: ./files) files and directory:
@@ -23,14 +23,17 @@ How to do :
   * server-icon.png
 - run: `docker-compose up -d` in the directory where your docker-compose is located
 
-Enjoy ! :)
+## Environment option:
 
-Environment option:
-OPS: "name,of,operators"
-MEMORY: "Memory allocated to server(16G)"
-ENFORCE_WHITELIST: "TRUE or FALSE"
-TZ: "Your time zone"
+|Environnement Variable|Description|
+|:--------------------:|:----:|
+|OPS|Name(s) of the operator(s)|
+|MEMORY| Memory allocated to server (Default: 16G) |
+|ENFORCE_WHITELIST|"`TRUE` or `FALSE`"|
+|TZ|Your time zone|
 
 For more information on environment variables, do not hesitate to consult: https://github.com/itzg/docker-minecraft-server
 
 You can also change the port exposed on your server by default, the port used is 25565. To modify it, simply replace the line `25565:25565` by `{external_access_port}:25565`
+
+**Enjoy ! :)**
