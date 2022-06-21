@@ -13,7 +13,14 @@ How to install docker-compose: https://docs.docker.com/compose/install/
 How to do :
 
 - Download or copy the docker-compose.yml file and place it on your server in the directory of your choice
-- Download files from BlackStone Block server to curse forge and put all files in minecraft directory (with this docker-compose file, in directory: ./files)
+- Download files from BlackStone Block server to curse forge and put in minecraft directory (with this docker-compose file, in directory: ./files) files and directory:
+  * config/
+  * defaultconfigs/
+  * kubejs/
+  * libraries/
+  * mods/
+  * server.properties
+  * server-icon.png
 - run: `docker-compose up -d` in the directory where your docker-compose is located
 
 Enjoy ! :)
@@ -22,6 +29,6 @@ Environment option:
 OPS: "name,of,operators"
 MEMORY: "Memory allocated to server(16G)"
 ENFORCE_WHITELIST: "TRUE or FALSE"
-TZ="Your time zone"
+TZ: "Your time zone"
 
 For more information on environment variables, do not hesitate to consult: https://github.com/itzg/docker-minecraft-server
