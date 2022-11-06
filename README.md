@@ -2,9 +2,9 @@
 
 This repository was created for people who want to run Black Stone Block Modpack on a Docker based server.
 
-Thanks to itzg (https://github.com/itzg) for his work on itzg/docker-minecraft-server
+Thanks to [itzg](https://github.com/itzg) for his work on itzg/docker-minecraft-server
 
-To download the modpack go to https://www.curseforge.com/minecraft/modpacks/blackstone-block
+To download the modpack go to [cursforge](https://www.curseforge.com/minecraft/modpacks/blackstone-block)
 
 To run this server, it is imperative that docker-compose is installed.
 
