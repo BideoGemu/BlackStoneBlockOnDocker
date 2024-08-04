@@ -17,7 +17,7 @@ services:
       FORGEVERSION: "36.2.39"
       MEMORY: "16G"
       OPS: "BideoGemu"
-      LEVEL_TYPE: skyblockbuilder\:custom_skyblock
+      LEVEL_TYPE: skyblockbuilder:custom_skyblock
       ALLOW_FLIGHT: "true"
       MOTD: "BlackStone Block On Docker"
     tty: true
