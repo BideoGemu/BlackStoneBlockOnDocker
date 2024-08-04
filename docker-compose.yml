@@ -14,7 +14,7 @@ services:
       TYPE: FORGE
       DEBUG: "false"
       VERSION: "1.16.5"
-      FORGEVERSION: "36.2.33"
+      FORGEVERSION: "36.2.39"
       MEMORY: "16G"
       OPS: "BideoGemu"
       LEVEL_TYPE: skyblockbuilder\:custom_skyblock
